@@ -121,6 +121,9 @@ h1{
     color: white;
 }
 
+
+.content .info-cards img{ border-radius: 3%;}
+
 .lower-content{
     background-color: rgb(200, 195, 195);
     
