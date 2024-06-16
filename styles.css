@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-nav{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding: 56px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}   
+
+.nav .links{
+    display: flex;
+    gap: 16px;
+
+} 
+
+ul{
+
+    list-style: none;
+}
+
+.nav li a{
+
+    text-decoration: none;
+    color: white;
+}
+
+.nav li a:hover{
+
+    color: red;
+}
+
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.nav2 img{
+    height: 200px;
+    width: 300px;
+    margin: 32px 0 0 0;
+}
+
+.header:hover{
+    color: red;
+}
+
+.nav2 .one{
+    color: red;
+    font-weight: bolder;
+    margin-bottom: 32px;
+}
+
+.nav2 .two{
+    margin-bottom: 32px;
+}
+
+.nav2 button{
+    padding: 5px;
+    background-color: white;
+    border-radius: 10%;
+    list-style: none;
+    border-color: aliceblue;
+}
+
+.nav2 button a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav2 button a:hover{
+    color: red;
+}
+
+.content{
+    background-color: #C80036;
+    
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 32px;
+    padding: 16px;
+    color: white;
+}
+
+.content .info-cards .first-one img{
+    width: 500px;
+    height: 300px;
+}
+
+.content .info-cards .second-one img{
+    width: 500px;
+    height: 300px;
+}
+
+.content .info-cards .third-one img{
+    width: 500px;
+    height: 300px;
+}
+
+.content .info-cards{
+    padding: 32px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content .info-cards h5{
+    text-align: center;
+    color: white;
+}
+
+.lower-content{
+    background-color: rgb(200, 195, 195);
+    
+
+    padding: 64px;
+}
+
+.lower-content h2{
+    text-align: center;
+    margin-bottom: 32px;
+    font-weight: 100;
+}
+.lower-content .quote{
+    margin-left: 950px;
+    font-weight: bolder;
+}
+
+.footer-one{
+    background-color: #C80036;
+    margin: 56px;
+    padding: 32px;
+    height: 100px;
+    width: 700px;
+    border-radius: 2%;
+    margin-left: 500px;
+}
+
+
+
+.footer-one{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-one button{
+    padding: 3px;
+    background-color: white;
+    list-style: none;
+    border-color: aliceblue;
+}
+
+.footer-one button a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-one button a:hover{
+    color: red;
+}
+
+.footer-one .one{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.footer-one .two{
+    color: gainsboro;
+    font-weight: lighter;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.footer h5{
+    text-align: center;
+    padding: 16px;
+}
+
